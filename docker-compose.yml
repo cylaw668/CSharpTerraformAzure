@@ -1,0 +1,11 @@
+version: "3.6"
+
+services:
+  worker:
+  restart: always
+  image: dockerclaw/weatherapi
+  ports:
+        - 5000:5000
+        - 5001:5001
+  environment:
+    - ASPNETCORE_ENVIRONMENT=Development

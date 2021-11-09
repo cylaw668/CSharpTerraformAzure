@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "k3B1vnLsQBY7T5ynqjDbfk7ctA882958rxG/r+YxboVE8sniTl4ZoHX4B/yGkj0iZu6E5PMagMVzMGyDIdt14A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\law_c\\OneDrive\\Desktop\\CSharp\\Terraform\\weatherapi\\weatherapi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\law_c\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\law_c\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\law_c\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\law_c\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\law_c\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\law_c\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
