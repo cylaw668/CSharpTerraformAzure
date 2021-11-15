@@ -28,3 +28,18 @@ stages:
         Dockerfile: '**/Dockerfile'
         tags:
           $(tag)
+- stage: Deployment
+  displayName: 'deploying to Azure use terraform'
+  dependsOn: Build
+  jobs:
+  - job:  Deployment
+    displayName: 'deploying to Azure containers'
+    pool:
+      vmImage: 'ubuntu-latest'
+    variables:
+    - group: TerraformVars
+    steps:
+    - script: |
+        set -e 
+        terraform init -input=false
+        terraform apply -input=false -auto-approve
